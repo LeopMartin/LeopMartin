@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cadre-home {
+  padding: 100px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba(135, 86, 31, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.oui {
+ background-color: #faf2eb ;
+ color: #e5e7e6
+        #EEE6D8
+        #DAAB3A
+        #B67332
+        #93441A;
+}
