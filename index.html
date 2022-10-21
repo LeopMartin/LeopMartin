@@ -1,7 +1,9 @@
-<header>
+<!doctype html>
+<html lang="fr">
+<head>
   <title>🌸 Léo_p 🌸</title>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="./public/style.css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -11,8 +13,7 @@
       },
     };
   </script>
-</header>
-<html lang="fr">
+</head>
   <div
     class="grid overflow-hidden grid-cols-12 grid-rows-none gap-0 grid-flow-row h-screen scroll-smooth"
   >
@@ -26,18 +27,20 @@
       <div
         class="grid overflow-hidden grid-cols-5 grid-rows-1 grid-flow-row h-auto m-5"
       >
-      <div class="box">
-        <a href="https://leop.me" target="_blank"
-          ><img
-            alt=""
-            width="30px"
-            class="hover:rounded-lg hover:bg-[#e6e6e6] p-1 m-0"
-            src="./public/img/home-house.svg"
-        /></a>
-      </div>
+        <div class="box">
+          <a href="https://leop.me" target="_blank"
+            ><img
+              alt=""
+              width="30px"
+              class="hover:rounded-lg hover:bg-[#e6e6e6] p-1 m-0"
+              src="./public/img/home-house.svg"
+          /></a>
+        </div>
 
         <div class="box">
-          <a href="https://www.linkedin.com/in/l%C3%A9o-martin-2886a8233/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/l%C3%A9o-martin-2886a8233/"
+            target="_blank"
             ><img
               alt=""
               width="30px"
@@ -80,7 +83,7 @@
           ></a>
         </div>
         <div class="box">
-          <a href="mailto:leop@leop.me?subject=Email du site de Léop">
+          <a href="mailto:info.freelance@leop.me?subject=Email du site de Léop">
             <img
               alt=""
               width="30px"
@@ -150,21 +153,32 @@
         </div>
       </div>
     </div>
-    <div class="box col-start-3 col-span-11 text-white overflow-y-auto">
+    <div
+      class="box col-start-3 col-span-11 text-white overflow-y-auto scroll-smooth"
+    >
       <!-- corps -->
       <section
-      id="home" 
+        id="home"
         class="w-full h-full bg-no-repeat bg-cover bg-fixed flex bg-[#B67332]"
         style="background-image: url('./public/img/topography.svg')"
       >
         <!-- Home -->
-        <div class="ml-[15%] mt-[5%]">
+        <div class="ml-auto mr-auto mt-24">
+          <p class="text-left text-5xl cadre-home">
+            Hi,<br />
+            I'm Léo_p ! <br />
+            Pretty cool developer UwU
+          </p>
+          <div class="arrow text-center"></div>
+        </div>
+        <!-- <div class="w-2/3 mt-[5%] inline-block text-center">
           <p class="text-left text-5xl cadre-home">
             Hi,<br />
             I'm Léo_p ! <br />
             Pretty cool developer UwU
           </p>
         </div>
+        <div class="text-center arrow"></div> -->
       </section>
 
       <section id="about" class="w-full h-auto">
@@ -192,7 +206,7 @@
           </div>
           <div class="box col-start-5 col-span-11 ml-5 mr-32">
             <h3 class="text-left text-3xl font-semibold text-[#93441A]">
-              UI/UX Designer & Web Developer.
+              Student UI/UX Designer & Web Developer.
             </h3>
             <p class="text-black text-left italic mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -206,7 +220,7 @@
               <div class="box row-start-1 col-start-1 col-end-1 mt-3">
                 <p>
                   <span class="font-blod text-2xl text-[#B67332]">></span>
-                  <strong>Anniversaire : </strong> 13 septembre 2002
+                  <strong>Âge : </strong> 20 ans 🎂 (2002)
                 </p>
               </div>
               <div class="box row-start-1 col-start-2 col-end-3 mt-3">
@@ -219,7 +233,7 @@
               <div class="box row-start-2 col-start-1 col-end-1 mt-3">
                 <p>
                   <span class="font-blod text-2xl text-[#B67332]">></span>
-                  <strong>Email : </strong> info.freelance@gmail.com
+                  <strong>Email : </strong> info.freelance@leop.me
                 </p>
               </div>
               <div class="box row-start-2 col-start-2 col-end-3 mt-3">
@@ -258,7 +272,10 @@
       <br /><br /><br />
       <section id="skills" class="w-full h-auto bg-[#faf2eb]">
         <br />
-        <h2 id="#skills" class="mx-32 my-5 text-left text-4xl font-bold text-[#93441A]">
+        <h2
+          id="#skills"
+          class="mx-32 my-5 text-left text-4xl font-bold text-[#93441A]"
+        >
           Skills :
         </h2>
         <div class="w-20 h-0 mx-32 flex border border-[#B67332]"></div>
@@ -363,7 +380,10 @@
       </section>
       <section class="w-full h-auto text-black text-center">
         <br />
-        <h2 id="contact" class="mx-32 my-5 text-left text-4xl font-bold text-[#93441A]">
+        <h2
+          id="contact"
+          class="mx-32 my-5 text-left text-4xl font-bold text-[#93441A]"
+        >
           Contactez moi 😺
         </h2>
         <div class="w-20 h-0 mx-32 flex border border-[#B67332]"></div>
@@ -381,7 +401,12 @@
           class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-0 grid-flow-row w-auto h-auto"
         >
           <div class="box">
-            <img width="90%" class="inline-block ml-16" src="./public/img/mail.png" alt="mail" />
+            <img
+              width="90%"
+              class="inline-block ml-16"
+              src="./public/img/mail.png"
+              alt="mail"
+            />
           </div>
           <div class="box inline-block my-auto">
             <h3 class="text-2xl font-semibold text-[#93441A]">
@@ -390,7 +415,7 @@
             <br /><br />
             <form>
               <input
-                class="border border-[#B67332] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] bg-[#fff] p-1 w-3/5 rounded my-3"
+                class="bg-[#faf2eb] border border-[#B67332] placeholder:text-[#93441A] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] p-1 w-3/5 rounded my-3"
                 type="text"
                 id="Email"
                 name="Email"
@@ -399,7 +424,7 @@
                 autocomplete="none"
               />
               <input
-                class="border border-[#B67332] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] bg-[#fff] p-1 w-3/5 rounded my-3"
+                class="bg-[#faf2eb] border border-[#B67332] placeholder:text-[#93441A] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] p-1 w-3/5 rounded my-3"
                 type="text"
                 id="Object"
                 name="Object"
@@ -408,7 +433,7 @@
                 autocomplete="none"
               />
               <textarea
-                class="border border-[#B67332] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] bg-[#fff] p-1 w-3/5 h-32 placeholder:text-start placeholder:mt-[-40px] rounded my-3"
+                class="bg-[#faf2eb] border border-[#B67332] placeholder:text-[#93441A] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] p-1 w-3/5 h-32 placeholder:text-start placeholder:mt-[-40px] rounded my-3"
                 type="text"
                 id="Subject"
                 name="Subject"
@@ -418,7 +443,8 @@
               ></textarea>
             </form>
             <button
-              class="my-3 border border-[#B67332] rounded px-4 py-2 hover:bg-[#B67332] hover:text-white active:bg-[#93441A] active:text-white"
+              disabled
+              class="my-3 border border-[#B67332] rounded px-4 py-2 hover:bg-[#B67332] hover:text-white active:bg-[#93441A] active:text-white cursor-not-allowed"
               type="button"
               on:click="sendData()"
               id="btn-form"
@@ -433,10 +459,10 @@
       <footer class="p-4 bg-[#B67332] shadow md:px-6 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between"></div>
         <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-        <span class="block text-sm text-gray-200 sm:text-center"
-          >© 2022
-          <a href="https://leo_p.dev/doc" class="hover:underline">leop_corp™</a
-          >. All Rights Reserved.
+        <span class="block text-sm text-gray-200 sm:text-center">
+          <a href="https://leop.me/" class="hover:underline">Léo_p.me © 2022</a
+          ><br />
+          All Rights Reserved, but it's okay 🦊
         </span>
       </footer>
       <script src="./app.js"></script>
