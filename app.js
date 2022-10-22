@@ -9,7 +9,7 @@ const sendData = async () => {
       i += 1;
     });
     const response = await fetch(
-      `http://127.0.0.1:5000/test?Email=${tab[0]}&Object=${tab[1]}&Subject=${tab[2]}`,
+      `http://82.165.242.38:5000/test?Email=${tab[0]}&Object=${tab[1]}&Subject=${tab[2]}`,
       {
         mode: "no-cors",
         method: "POST",
