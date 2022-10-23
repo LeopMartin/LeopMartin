@@ -16,7 +16,7 @@ const sendData = async () => {
       i += 1;
     });
     const response = await fetch(
-      `http://3f1ae0d.online-server.cloud:5000/test?Email=${tab[0]}&Object=${tab[1]}&Subject=${tab[2]}`,
+      `http://3f1ae0d.online-server.cloud:5000test?Email=${tab[0]}&Object=${tab[1]}&Subject=${tab[2]}`,
       {
         mode: "no-cors",
         method: "POST",
