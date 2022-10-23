@@ -413,15 +413,15 @@
               Envoyer moi un Email
             </h3>
             <br /><br />
-            <form>
+            <form target="_parent">
               <input
                 class="bg-[#faf2eb] border border-[#B67332] placeholder:text-[#93441A] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] p-1 w-3/5 rounded my-3"
-                type="text"
+                type="email"
                 id="Email"
                 name="Email"
                 value=""
+                required 
                 placeholder="Email"
-                autocomplete="none"
               />
               <input
                 class="bg-[#faf2eb] border border-[#B67332] placeholder:text-[#93441A] focus:border-[#93441A] focus:outline-none focus:ring-1 focus:ring-[#93441A] p-1 w-3/5 rounded my-3"
@@ -429,7 +429,8 @@
                 id="Object"
                 name="Object"
                 value=""
-                placeholder="Object"
+                required 
+                placeholder="Objet"
                 autocomplete="none"
               />
               <textarea
@@ -438,18 +439,20 @@
                 id="Subject"
                 name="Subject"
                 value=""
+                required 
                 placeholder="Votre message"
                 autocomplete="none"
               ></textarea>
+              <br>
+              <button
+                class="my-3 border border-[#B67332] rounded px-4 py-2 hover:bg-[#B67332] hover:text-white active:bg-[#93441A] active:text-white"
+                type="submit"
+                on:click="sendData()"
+                id="btn-form"
+              >
+                Envoyé !
+              </button>
             </form>
-            <button
-              class="my-3 border border-[#B67332] rounded px-4 py-2 hover:bg-[#B67332] hover:text-white active:bg-[#93441A] active:text-white"
-              type="button"
-              on:click="sendData()"
-              id="btn-form"
-            >
-              Envoyé !
-            </button>
           </div>
         </div>
       </section>

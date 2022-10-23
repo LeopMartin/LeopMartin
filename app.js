@@ -2,6 +2,13 @@ let tab = [];
 
 const sendData = async () => {
   try {
+    let sub = document.getElementById('Subject').value
+    let mail = document.getElementById('Email').value
+    let obj = document.getElementById('Object').value
+    if (sub === "" || mail === "" || obj === "") {
+      console.log('stop')
+      return
+    }
     let i = 0;
     let elementList = document.querySelectorAll("input, textarea");
     elementList.forEach((input) => {
@@ -19,6 +26,12 @@ const sendData = async () => {
         },
       }
     );
+    console.log(response.status)
+    if (response.status === 0) {
+      sub = ""
+      mail = ""
+      obj = ""
+    }
   } catch (error) {
     console.error(error);
   }
