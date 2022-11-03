@@ -67,3 +67,7 @@ html {
     transform: translate(-10px, -10px);
   }
 }
+
+svg:hover {
+  stroke: #93441a;
+}
