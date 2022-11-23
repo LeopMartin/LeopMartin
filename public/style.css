@@ -68,6 +68,11 @@ html {
   }
 }
 
-svg:hover {
+svg::hover {
   stroke: #93441a;
+}
+
+.camp:hover {
+  color: #DAAB3A;
+  stroke: #DAAB3A;
 }
