@@ -16,17 +16,7 @@ const sendData = async () => {
       tab[i] = input.value;
       i += 1;
     });
-    const response = await fetch(
-      `http://3f1ae0d.online-server.cloud:5000/test?Email=${tab[0]}&Object=${tab[1]}&Subject=${tab[2]}`,
-      {
-        mode: "no-cors",
-        method: "POST",
-        headers: {
-          Accept: "*/*",
-          Authorization: "Basic cHJlc3RhdGFpcmVAYm5ic2l0dGVyLmNvbToxMjM0NTY=",
-        },
-      }
-    );
+    const response = await fetch(`http://3f1ae0d.online-server.cloud:5000/test?Email=${tab[0]}&Object=${tab[1]}&Subject=${tab[2]}`);
     console.log(response.status)
     if (response.status === 0) {
       sub = ""
