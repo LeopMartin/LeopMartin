@@ -41,8 +41,8 @@ html {
   -webkit-transform: rotate(45deg);
   border-left: none;
   border-top: none;
-  border-right: 5px #000 solid;
-  border-bottom: 5px #000 solid;
+  border-right: 5px #2cb67d solid;
+  border-bottom: 5px #2cb67d solid;
 }
 
 .arrow:before {
@@ -53,8 +53,8 @@ html {
   margin: -20px 0 0 -20px;
   border-left: none;
   border-top: none;
-  border-right: 2px #000 solid;
-  border-bottom: 2px #000 solid;
+  border-right: 2px #2cb67d solid;
+  border-bottom: 2px #2cb67d solid;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: arrow;
