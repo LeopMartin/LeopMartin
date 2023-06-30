@@ -656,7 +656,7 @@
                 name="name"
                 value=""
                 required
-                placeholder="Name"
+                placeholder="Votre nom"
                 autocomplete="none"
               />
               <textarea
@@ -798,10 +798,10 @@
       </footer>
       <script>
         var varAge = document.getElementById("age");
-        var dob = new Date("09/13/2002");  
-        var month_diff = Date.now() - dob.getTime();  
-        var age_dt = new Date(month_diff);   
-        var year = age_dt.getUTCFullYear();  
+        var dob = new Date("09/13/2002");
+        var month_diff = Date.now() - dob.getTime();
+        var age_dt = new Date(month_diff);
+        var year = age_dt.getUTCFullYear();
         var age = Math.abs(year - 1970);
         varAge.textContent = age;
       </script>
