@@ -28,13 +28,18 @@
                         type: 'POST',
                         url: form.attr('action'),
                         data: form.serialize(),
-    
                         success: function(response) {
                             $('#response').html(response);
+                            resetForm()
                         }
                     });
                 });
             });
+
+          function resetForm() {
+            var formulaire = document.getElementById("contact-form");
+            formulaire.reset();
+          }
         </script>
   </head>
   <div
@@ -190,7 +195,6 @@
             Contact
           </a>
         </div>
-          
       </div>
     </div>
     <div
