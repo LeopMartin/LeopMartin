@@ -21,19 +21,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
             $(document).ready(function() {
-                // Lorsque le formulaire est soumis
                 $('#contact-form').submit(function(e) {
-                    e.preventDefault(); // Empêche la soumission par défaut du formulaire
-                    var form = $(this); // Récupère le formulaire
-    
-                    // Envoie de la requête AJAX
+                    e.preventDefault();
+                    var form = $(this);
                     $.ajax({
                         type: 'POST',
-                        url: form.attr('action'), // URL du script PHP de traitement
-                        data: form.serialize(), // Sérialise les données du formulaire
+                        url: form.attr('action'),
+                        data: form.serialize(),
     
                         success: function(response) {
-                            // Affiche la réponse du serveur
                             $('#response').html(response);
                         }
                     });
@@ -317,7 +313,7 @@
               </div>
               <div class="box row-start-4 row-end-4 col-start-1 col-end-3">
                 <p>
-                  Actuellement étudiant en école d'ingénieur (2ème année à Epitech), J’y étudie les bases du développement (langage C, C++ et ASM). Et pendant mon temps libre je me suis formé en autodidacte aux technologies Web.
+                  Actuellement étudiant en école d'ingénieur (3ème année à Epitech), J’y étudie les bases du développement (langage C, C++ et ASM). Et pendant mon temps libre je me suis formé en autodidacte aux technologies Web.
                 </p>
               </div>
             </div>
@@ -642,7 +638,7 @@
               Envoyer moi un Email
             </h3>
             <br /><br />
-            <div id="response"></div> 
+            <div id="response" class="text-[#2cb67d]"></div>
             <form id="contact-form" action="form.php" method="POST">
               <input
                 class="bg-[#16161a] border border-[#7f5af0] placeholder:text-[#7f5af0] focus:border-[#7f5af0] focus:outline-none focus:ring-1 focus:ring-[#7f5af0] p-1 w-3/5 rounded my-3"
