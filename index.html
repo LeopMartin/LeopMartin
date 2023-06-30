@@ -18,6 +18,28 @@
         },
       };
     </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Lorsque le formulaire est soumis
+                $('#contact-form').submit(function(e) {
+                    e.preventDefault(); // Empêche la soumission par défaut du formulaire
+                    var form = $(this); // Récupère le formulaire
+    
+                    // Envoie de la requête AJAX
+                    $.ajax({
+                        type: 'POST',
+                        url: form.attr('action'), // URL du script PHP de traitement
+                        data: form.serialize(), // Sérialise les données du formulaire
+    
+                        success: function(response) {
+                            // Affiche la réponse du serveur
+                            $('#response').html(response);
+                        }
+                    });
+                });
+            });
+        </script>
   </head>
   <div
     class="grid overflow-hidden grid-cols-12 grid-rows-none gap-0 grid-flow-row h-screen scroll-smooth"
@@ -620,7 +642,8 @@
               Envoyer moi un Email
             </h3>
             <br /><br />
-            <form action="" method="POST">
+            <div id="response"></div> 
+            <form id="contact-form" action="form.php" method="POST">
               <input
                 class="bg-[#16161a] border border-[#7f5af0] placeholder:text-[#7f5af0] focus:border-[#7f5af0] focus:outline-none focus:ring-1 focus:ring-[#7f5af0] p-1 w-3/5 rounded my-3"
                 type="email"
