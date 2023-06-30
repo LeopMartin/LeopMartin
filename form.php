@@ -43,7 +43,7 @@ if (!empty($errors)) {
     );
 
     // Build the email message
-    $message_body = "Name: $name\n\nEmail: $email\n\nMessage:\n$message";
+    $message_body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
     // Send the email
     if (mail($to, $subject, $message_body, $headers)) {
