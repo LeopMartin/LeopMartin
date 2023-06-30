@@ -620,12 +620,12 @@
               Envoyer moi un Email
             </h3>
             <br /><br />
-            <form target="_parent">
+            <form  action="form.php">
               <input
                 class="bg-[#16161a] border border-[#7f5af0] placeholder:text-[#7f5af0] focus:border-[#7f5af0] focus:outline-none focus:ring-1 focus:ring-[#7f5af0] p-1 w-3/5 rounded my-3"
                 type="email"
                 id="Email"
-                name="Email"
+                name="email"
                 value=""
                 required
                 placeholder="Email"
@@ -634,7 +634,7 @@
                 class="bg-[#16161a] border border-[#7f5af0] placeholder:text-[#7f5af0] focus:border-[#7f5af0] focus:outline-none focus:ring-1 focus:ring-[#7f5af0] p-1 w-3/5 rounded my-3"
                 type="text"
                 id="Object"
-                name="Object"
+                name="name"
                 value=""
                 required
                 placeholder="Objet"
@@ -644,7 +644,7 @@
                 class="bg-[#16161a] border border-[#7f5af0] placeholder:text-[#7f5af0] focus:border-[#7f5af0] focus:outline-none focus:ring-1 focus:ring-[#7f5af0] p-1 w-3/5 h-32 placeholder:text-start placeholder:mt-[-40px] rounded my-3"
                 type="text"
                 id="Subject"
-                name="Subject"
+                name="message"
                 value=""
                 required
                 placeholder="Votre message"
@@ -655,7 +655,6 @@
             <button
               class="my-3 border border-[#7f5af0] rounded px-4 py-2 hover:bg-[#7f5af0] hover:text-white active:bg-[#7f5af0] active:text-white"
               type="submit"
-              on:click="sendData()"
               id="btn-form"
             >
               Envoyé !
