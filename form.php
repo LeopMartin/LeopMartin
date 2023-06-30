@@ -23,7 +23,7 @@ if (empty($email)) {
 }
 if (empty($message)) {
     $errors[] = 'Message is required';
-} elseif (strlen($message) < 10) {
+} elseif (strlen($message) <= 0) {
     $errors[] = 'Message must be at least 10 characters';
 }
 
