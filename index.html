@@ -43,10 +43,10 @@
         </script>
   </head>
   <div
-    class="grid overflow-hidden grid-cols-12 grid-rows-none gap-0 grid-flow-row h-screen scroll-smooth"
+    class="grid overflow-hidden lg:grid-cols-12 grid-rows-none gap-0 grid-flow-row h-screen scroll-smooth"
   >
     <div
-      class="box col-start-1 col-end-3 text-white bg-[#16161a] border-8 border-[#7f5af0]"
+      class="lg:box lg:col-start-1 lg:col-end-3 hidden lg:block text-white bg-[#16161a] border-8 border-[#7f5af0]"
     >
       <div
         class="w-32 h-32 bg-[#7f5af0] rounded-full my-12 mx-auto border-8 border-[#2cb67d]"
@@ -198,7 +198,7 @@
       </div>
     </div>
     <div
-      class="box col-start-3 col-span-11 text-white overflow-y-auto scroll-smooth"
+      class="box lg:col-start-3 lg:col-span-11 text-white overflow-y-auto overflow-x-hidden scroll-smooth"
     >
       <!-- corps -->
       <section
@@ -223,35 +223,35 @@
 
       <section id="about" class="w-full h-auto">
         <h2
-          class="mx-32 mb-5 mt-10 text-left text-4xl font-bold text-[#7f5af0]"
+          class="lg:mx-32 mb-5 mx-5 mt-10 lg:text-left text-center text-4xl font-bold text-[#7f5af0]"
         >
           Présentation
         </h2>
-        <div class="w-20 h-0 mx-32 flex border border-[#7f5af0]"></div>
-        <p class="text-white mx-32 mt-5 mb-7 text-left">
+        <div class="lg:w-20 h-0 lg:mx-32 mx-12 flex border border-[#7f5af0]"></div>
+        <p class="text-white lg:mx-32 mx-5 mt-5 mb-7 lg:text-left text-center">
           Salut, moi c'est Léop. J'étudie en tant qu'apprenti développeur chez
           Epitech ! Je suis un passionné d'informatique, j'adore découvrir de
           nouvelles technologies et partir à l’aventure à la montagne 🏔️ 🏕️.
         </p>
         <div
-          class="grid overflow-hidden grid-cols-12 grid-rows-none gap-0 gap-x-2 grid-flow-row h-auto"
+          class="grid overflow-hidden lg:grid-cols-12 grid-rows-none gap-0 gap-x-2 grid-flow-row h-auto"
         >
-          <div class="box col-start-1 col-end-5 ml-32">
+          <div class="box lg:col-start-1 lg:col-end-5 lg:ml-32 hidden lg:block">
             <img
               class="max-w-[100%] h-auto"
               src="./public/img/profile-img.png"
               alt="avatar"
             />
           </div>
-          <div class="box col-start-5 col-span-11 ml-5 mr-32">
-            <h3 class="text-left text-3xl font-semibold text-[#2cb67d]">
+          <div class="box lg:col-start-5 lg:col-span-11 lg:ml-5 lg:mr-32">
+            <h3 class="lg:text-left text-center text-3xl font-semibold text-[#2cb67d]">
               Étudiant en programation & Web développeur.
             </h3>
-            <p class="text-white text-left font-semibold text-xl mt-5 mb-1">
+            <p class="text-white lg:text-left text-center font-semibold text-xl mt-5 mb-1">
               Mini-bio :
             </p>
             <div
-              class="grid overflow-hidden auto-cols-auto auto-rows-min gap-1.5 gap-x-1.5 grid-flow-row h-auto text-white ml-5 mr-32"
+              class="grid overflow-hidden auto-cols-auto auto-rows-min lg:gap-1.5 lg:gap-x-1.5 grid-flow-row h-auto lg:text-left text-center text-white lg:ml-5 lg:mr-32"
             >
               <div class="box row-start-1 col-start-1 col-end-1 mt-3">
                 <p>
@@ -259,26 +259,26 @@
                   <strong>Âge : </strong> <span id="age">1</span> ans 🎂
                 </p>
               </div>
-              <div class="box row-start-1 col-start-2 col-end-3 mt-3">
+              <div class="box lg:row-start-1 lg:col-start-2 lg:col-end-3 mt-3">
                 <p>
                   <span class="font-blod text-2xl text-[#2cb67d]">></span>
                   <strong>Site internet : </strong>
                   <a class="hover:underline" href="https://leop.me/">leop.me</a>
                 </p>
               </div>
-              <div class="box row-start-2 col-start-1 col-end-1 mt-3">
+              <div class="box lg:row-start-2 lg:col-start-1 lg:col-end-1 mt-3">
                 <p>
                   <span class="font-blod text-2xl text-[#2cb67d]">></span>
                   <strong>Email : </strong> leop.freelance@gmail.com
                 </p>
               </div>
-              <div class="box row-start-2 col-start-2 col-end-3 mt-3">
+              <div class="box lg:row-start-2 lg:col-start-2 lg:col-end-3 mt-3">
                 <p>
                   <span class="font-blod text-2xl text-[#2cb67d]">></span>
                   <strong>Permis B : </strong>✔️
                 </p>
               </div>
-              <div class="box row-start-3 col-start-1 col-end-1 mt-3">
+              <div class="box lg:row-start-3 lg:col-start-1 lg:col-end-1 mt-3">
                 <p>
                   <span class="font-blod text-2xl text-[#2cb67d]">></span>
                   <strong>Freelancer : </strong>
@@ -309,14 +309,14 @@
                   </a>
                 </p>
               </div>
-              <div class="box row-start-3 col-start-2 col-end-3 mt-3 mb-3">
+              <div class="box lg:row-start-3 lg:col-start-2 lg:col-end-3 mt-3 mb-3">
                 <p>
                   <span class="font-blod text-2xl text-[#2cb67d]">></span>
                   <strong>Ville : </strong> Marseille/Aix-en-Provence
                 </p>
-              </div>
-              <div class="box row-start-4 row-end-4 col-start-1 col-end-3">
-                <p>
+              </div><br />
+              <div class="box lg:row-start-4 lg:row-end-4 lg:col-start-1 lg:col-end-3">
+                <p class="text-center lg:text-left">
                   Actuellement étudiant en école d'ingénieur (3ème année à Epitech), J’y étudie les bases du développement (langage C, C++ et ASM). Et pendant mon temps libre je me suis formé en autodidacte aux technologies Web.
                 </p>
               </div>
@@ -324,25 +324,24 @@
           </div>
         </div>
       </section>
-      <br /><br /><br />
+      <br /><br />
       <section id="skills" class="w-full h-auto bg-[#16161a]">
-        <br />
         <h2
           id="#skills"
-          class="mx-32 my-5 text-left text-4xl font-bold text-[#7f5af0]"
+          class="lg:mx-32 mb-5 mx-5 mt-10 lg:text-left text-center text-4xl font-bold text-[#7f5af0]"
         >
           Compétences
         </h2>
-        <div class="w-20 h-0 mx-32 flex border border-[#7f5af0]"></div>
-        <p class="text-white mx-32 mt-5 mb-7 text-left">
+        <div class="lg:w-20 h-0 lg:mx-32 mx-12 flex border border-[#7f5af0]"></div>
+        <p class="text-white lg:mx-32 mx-5 mt-5 mb-7 lg:text-left text-center">
           Dans mon cursus les langages qui nous son enseigné sont souvent bas
           niveaux : C, C++, ASM, et il nous arrive de faire un peu de python et
           de Bash.
         </p>
         <div
-          class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-7 grid-flow-row w-auto h-auto"
+          class="grid overflow-hidden lg:grid-cols-2 auto-rows-auto gap-1 gap-x-7 grid-flow-row w-auto h-auto"
         >
-          <div class="box my-4 text-white ml-32">
+          <div class="box my-4 text-white px-6 lg:ml-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -355,7 +354,7 @@
               <span class="w-[90%] h-2.5 flex bg-[#7f5af0]"></span>
             </div>
           </div>
-          <div class="box my-4 text-white mr-32">
+          <div class="box my-4 text-white px-6 lg:mr-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -368,7 +367,7 @@
               <span class="w-2/4 h-2.5 flex bg-[#7f5af0]"></span>
             </div>
           </div>
-          <div class="box my-4 text-white ml-32">
+          <div class="box my-4 text-white px-6 lg:ml-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -379,7 +378,7 @@
               <span class="w-3/4 h-2.5 flex bg-[#7f5af0]"></span>
             </div>
           </div>
-          <div class="box my-4 text-white mr-32">
+          <div class="box my-4 text-white px-6 lg:mr-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -392,7 +391,7 @@
               <span class="w-4/5 h-2.5 flex bg-[#7f5af0]"></span>
             </div>
           </div>
-          <div class="box my-4 text-white ml-32">
+          <div class="box my-4 text-white px-6 lg:ml-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -405,7 +404,7 @@
               <span class="w-[70%] h-2.5 flex bg-[#7f5af0]"></span>
             </div>
           </div>
-          <div class="box my-4 text-white mr-32">
+          <div class="box my-4 text-white px-6 lg:mr-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -418,7 +417,7 @@
               <span class="w-[70%] h-2.5 flex bg-[#7f5af0]"></span>
             </div>
           </div>
-          <div class="box my-4 text-white ml-32">
+          <div class="box my-4 text-white px-6 lg:ml-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -431,7 +430,7 @@
               <span class="w-[60%] h-2.5 flex bg-[#7f5af0]"></span>
             </div>
           </div>
-          <div class="box my-4 text-white mr-32">
+          <div class="box my-4 text-white px-6 lg:mr-32">
             <div
               class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-1 grid-flow-row w-auto h-auto"
             >
@@ -445,29 +444,28 @@
             </div>
           </div>
         </div>
-        <p class="text-white mx-32 mt-10 mb-5">
+        <p class="text-white lg:mx-32 mx-5 mt-10 mb-5 lg:text-left text-center">
           J’ai découvert les technologies Web en autodidacte et durant mon stage de 1er année à Epitech, mes compétences se sont beaucoup orientées développement web frontend, car c'est-ce que je pratique le plus mais il m'est arrivé de faire un peu de développement backend en Node.js. Je possède aussi des connaissances basic sur les bases de données (SQL et Prisma). J’ai aussi eu la chance de survoler des langages tels que le python et ASM.
         </p>
         <br />
         <br />
       </section>
       <section class="w-full h-auto text-white text-center">
-        <br />
         <h2
           id="contact"
-          class="mx-32 my-5 text-left text-4xl font-bold text-[#7f5af0]"
+          class="lg:mx-32 mb-5 mx-5 mt-10 lg:text-left text-center text-4xl font-bold text-[#7f5af0]"
         >
           Contactez-moi !
         </h2>
-        <div class="w-20 h-0 mx-32 flex border border-[#7f5af0]"></div>
-        <p class="text-white mx-32 mt-5 text-left">
+        <div class="lg:w-20 h-0 lg:mx-32 mx-12 flex border border-[#7f5af0]"></div>
+        <p class="text-white lg:mx-32 mx-5 mt-5 mb-7 lg:text-left text-center">
           Si vous avez des questions ou des recommandations je suis tout ouïe, vous pouvez me contacter via le formulaire ci-dessous ou encore sur l'un de mes réseaux ouverts tels que Linkedin ou GitHub à bientôt. 😺
         </p>
         <br /><br />
         <div
-          class="grid overflow-hidden grid-cols-2 auto-rows-auto gap-1 gap-x-0 grid-flow-row w-auto h-auto"
+          class="grid overflow-hidden lg:grid-cols-2 auto-rows-auto gap-1 gap-x-0 grid-flow-row w-auto h-auto"
         >
-          <div class="box">
+          <div class="box hidden lg:block">
             <svg
               width="80%"
               class="inline-block ml-32"
@@ -689,7 +687,7 @@
       <!-- Contact -->
       <footer class="p-4 bg-[#2cb67d] shadow md:px-6 md:py-8">
         <div class="flex justify-center">
-          <div class="sm:flex sm:items-center sm:justify-between w-8/12">
+          <div class="flex items-center justify-between md:w-8/12 w-full">
             <div class="item w-auto h-auto ml-auto mr-auto">
               <a href="https://www.leop.me" target="_blank">
                 <svg
@@ -794,8 +792,8 @@
           </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-        <span class="block text-sm text-gray-200 sm:text-center">
-          <a href="https://leop.me/" class="hover:underline">Léo_p.me © 2022</a
+        <span class="block text-sm text-gray-200 text-center">
+          <a href="https://leop.me/" class="hover:underline">Leop.me © 2023</a
           ><br />
           All Rights Reserved, but it's okay 🦊
         </span>
