@@ -10,5 +10,4 @@ I'm also a traveler 🧙‍♂️, my name is **Leop** and this is my git accoun
 - [🇯🇵] -> 💖💖💖
 - Clink glasses with me ! 🍻
 - I like 🐺🦊🐈🎵🍛💣🛠️🎮🏔️
-- [leop.me](http://leop.me)
 - [Aesthetic-design](https://aesthetic-design.fr)
