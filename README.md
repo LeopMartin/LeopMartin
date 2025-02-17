@@ -3,11 +3,10 @@ I'm also a traveler 🧙‍♂️, my name is **Leop** and this is my git accoun
 
 {Epitech Student}
 ## Me :
-- {C} {C++} {HTML} {CSS} {JS}
-- {Node.js} {TypeScript} {Svelte} {React} {React native}
-- {Tailwind CSS} {Material ui}
+- {C} {C++} {HTML} {CSS} {JS} {Python}
+- {Node.js} {TypeScript} {Svelte} {React} {React native/Expo}
+- {Tailwind CSS} {Material ui} | {Figma} {Lightroom cl}
 - Language : [FR-🇫🇷][US-🇺🇸]
-- [🇯🇵] -> 💖💖💖
 - Clink glasses with me ! 🍻
-- I like 🐺🦊🐈🎵🍛💣🛠️🎮🏔️
+- I like 🐈🎵🍛💣🛠️🎮🏔️
 - [Aesthetic-design](https://aesthetic-design.fr)
